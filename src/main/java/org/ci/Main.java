@@ -25,10 +25,11 @@ public class Main {
         List<List<DataSet>> folds = ListUtils.partition(dataset, partitionSize);
 
         List<String> modelStructures = Arrays.asList(
-            "8-3R-1R",
-            "8-10R-1R",
-            "8-3S-3R-1R",
-            "8-10R-3S-3R-1R"
+            "8-1R"
+//            "8-3R-1R",
+//            "8-10R-1R",
+//            "8-3S-3R-1R",
+//            "8-10R-3S-3R-1R"
         );
 
         int MAX_GEN = 5;
